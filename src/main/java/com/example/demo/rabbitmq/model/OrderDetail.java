@@ -13,15 +13,15 @@ public class OrderDetail implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 
-	private int orderId;
+	private Integer orderId;
 	
 	private Order orderedItem;
 
-	public int getOrderId() {
+	public Integer getOrderId() {
 		return orderId;
 	}
 
-	public void setOrderId(int orderId) {
+	public void setOrderId(Integer orderId) {
 		this.orderId = orderId;
 	}
 
